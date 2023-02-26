@@ -1,0 +1,67 @@
+.food_item_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ececec;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.food_item_name {
+    font-size: 28px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.food_item_description {
+    font-size: 18px;
+    font-weight: 100px;
+    font-style: italic;
+    font-family: Roboto;
+}
+
+.food_item_price {
+    font-size: 24px;
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #f00;
+}
+
+.food_item_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.food_item_form_item {
+    display: flex;
+    align-items: center;
+}
+
+.food_item_form_label {
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Montserrat;
+    margin-right: 10px;
+}
+
+.food_item_form_input {
+    height: 25px;
+    width: 171px;
+    border: 1px solid #999999;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.food_item_add_to_cart {
+    width: 171px;
+    color: #fff;
+    background-color: #900000;
+    font-family: Roboto;
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px;
+    border: 0px;
+    border-radius: 50px;
+}
